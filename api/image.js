@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   const color = req.query.color || 'white'; // color de texto
 
   // Imagen base (usa una URL pública, por ejemplo desde tu GitHub)
-  const baseUrl = 'https://raw.githubusercontent.com/BenjiITEst/The-Youtube/main/ChatGPT%20Image%2019%20oct%202025%2C%2019_06_03.png';
+  const baseUrl = 'https://raw.githubusercontent.com/BenjiITEst/Yotube-Thumbnail-API/main/images/image_black.png';
   const base = await loadImage(baseUrl);
 
   // Crea el canvas del tamaño de la imagen base
